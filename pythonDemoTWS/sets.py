@@ -99,6 +99,7 @@ print(m_set)
 
 """
 Diff b/w Add and update in a set of python
+
  - We can use add() and update() method to add elements to set. 
  - add() used to add one element to set.
  - update() method used to add multiple elements to set. Note: Both add() and update() methods will modify the original set itself.

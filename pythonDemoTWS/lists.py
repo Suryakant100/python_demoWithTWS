@@ -41,3 +41,71 @@ for star in list_of_star: # iterartion using for loop
 
 for i in range(0,len(list_of_star)):
     print(list_of_star[i])    
+
+"""
+
+
+append()
+
+Adds an element to the end of the list
+
+extend()
+
+Adds more than one element to the end of the list
+
+insert()
+
+Adds an element in between the list
+
+remove()
+
+Removes an elements from the list
+
+pop()
+
+Removes the last elements from the list
+
+slice()
+
+Prints a section of the list
+
+reverse()
+
+Reverses the order of the elements in a list
+
+len()
+
+Gives the length of a list
+
+min()
+
+Gives the minimum element (by value) of a list
+
+max()
+
+Gives the maximum element (by value) of a list
+
+count()
+
+Counts the number of copies in a list
+
+Concatenate
+
+Combines two list
+
+Multiply
+
+Multiplies the occurrence of elements in a list
+
+index()
+
+Gives index number of an element in the list
+
+sort()
+
+Sorts the list in ascending order
+
+clear()
+
+Clears every element in a list
+"""    
