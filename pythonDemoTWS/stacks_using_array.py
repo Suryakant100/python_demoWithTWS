@@ -20,8 +20,8 @@ class Stack:
         self.my_stack=array.array('i',[]) # Creating empty array
         self.top=-1 # initial position of the stack is -1 which is store in the variabel
 
-    def get_top(self): 
-        print(len(self.my_stack)-1)
+    def get_top(self): # get the top of the stack
+        print(len(self.my_stack)-1) # Return the length
 
     def push(self,element): # function to puch element into the stack
         self.my_stack.append(element)    
