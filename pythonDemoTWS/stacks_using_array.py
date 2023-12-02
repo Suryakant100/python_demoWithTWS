@@ -18,6 +18,10 @@ import array
 class Stack:
     def __init__(self): # Creating cunstructor of class and self is pointing to a current object in class
         self.my_stack=array.array('i',[]) # Creating empty array
+        self.top=-1 # initial position of the stack is -1 which is store in the variabel
+
+    def get_top(self): 
+        print(len(self.my_stack)-1)
 
     def push(self,element): # function to puch element into the stack
         self.my_stack.append(element)    
@@ -39,10 +43,13 @@ class Stack:
 if __name__ == '__main__': # main function/entry point of code
 
     stack=Stack() # Creating object of stcak class
+    
+    stack.get_top() # Get the top
 
     # Push operations onto stack
-    stack.push(1) # Push 1st element            
+    stack.push(1) # Push 1st element
     stack.push(2) # Push 2nd element            
+    stack.get_top() # Get the top            
     stack.push(3) # Push 3rd element    
 
     print( stack.my_stack)  
